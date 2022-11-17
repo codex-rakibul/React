@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p> {"Student Info: "+student.fullName("Rakibul","Islam Sony")} </p>
+        <p> {"Student Info: "+student.fullName("Rakibul","Islam")} </p>
         <p>{txt}</p>     
       </header>
     </div>
