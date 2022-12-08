@@ -1,0 +1,9 @@
+div{
+    margin-bottom: 10px;
+}
+input{
+    width: 150px;
+    height: 35px;
+    border: 1px solid red;
+    padding: 5px;
+}
