@@ -16,6 +16,14 @@ import USE_STATE_WITH_OBJECT from "./component/11.USE_STATE_WITH_OBJECT/index";
 import Child_Parent from "./component/12.Child_Parent/Index";
 import Signup from "./component/13.Formik/Signup";
 import Home from "./component/14.State_Lifting/Home";
+import Toggle from "./component/15.1_Toggle/Toggle";
+import FAQS from "./component/15.2_FAQ/FAQS";
+import UseEffect from "./component/16.Use_Effect/UseEffect";
+import FetchData from "./component/17.Fetching_data_with_useEffect/FetchData";
+import CustomFetchData from "./component/18.Custom_Hook/FetchData";
+import Dynamic from "./component/19.Dynamic_Style/Dynamic";
+import PropsTypes from "./component/20.Props_Type/PropsTypes";
+import Life_Cycle from "./component/21.Life_Cycle/Life_Cycle";
 
 function App() {
   return (
@@ -53,6 +61,22 @@ function App() {
       <Signup />
       <h1 className="heading">14 State_Lifting</h1>
       <Home/>
+      <h1 className="heading">15.1 Toggle</h1>
+      <Toggle/>
+      <h1 className="heading">15.2 FAQ for Website</h1>
+      <FAQS/>
+      <h1 className="heading">16 UseEffect</h1>
+      <UseEffect/>
+      <h1 className="heading">17 Fetching Data With useEffect</h1>
+      <FetchData/>
+      <h1 className="heading">18 Custom Hook</h1>
+      <CustomFetchData/>
+      <h1 className="heading">19 Dynamic Styling</h1>
+      <Dynamic/>
+      <h1 className="heading">20 Props Types</h1>
+      <PropsTypes/>
+      <h1 className="heading">21 Life Cycle</h1>
+      <Life_Cycle/>
     </div>
   );
 }

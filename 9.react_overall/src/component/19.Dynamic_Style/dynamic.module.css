@@ -1,0 +1,12 @@
+.valid{
+    border: 2px solid green;
+}
+.valid:focus{
+    outline: none;
+}
+.Invalid{
+    border: 2px solid red;
+}
+.Invalid:focus{
+    outline: none;
+}
