@@ -24,6 +24,9 @@ import CustomFetchData from "./component/18.Custom_Hook/FetchData";
 import Dynamic from "./component/19.Dynamic_Style/Dynamic";
 import PropsTypes from "./component/20.Props_Type/PropsTypes";
 import Life_Cycle from "./component/21.Life_Cycle/Life_Cycle";
+import RefExample from "./component/22.RefExample/RefExample";
+import UserForm from "./component/23.React_Hook/UseRefExample/UserForm";
+import UseReducer from "./component/24.UseReducer/UseReducer";
 
 function App() {
   return (
@@ -77,6 +80,12 @@ function App() {
       <PropsTypes/>
       <h1 className="heading">21 Life Cycle</h1>
       <Life_Cycle/>
+      <h1 className="heading">22 RefExample</h1>
+      <RefExample/>
+      <h1 className="heading">23 React Hook</h1>
+      <UserForm/>
+      <h1 className="heading">24 Use Reducer</h1>
+      <UseReducer/>
     </div>
   );
 }

@@ -17,6 +17,7 @@ class Life_Cycle extends Component {
     // shouldComponentUpdate(){
     //     console.log("ShouldComponentUpdate");
     // };
+    
     componentDidMount(){
         console.log("ComponentDidMount");
     };
