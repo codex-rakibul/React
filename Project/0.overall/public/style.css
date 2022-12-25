@@ -1,0 +1,33 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+.heading{
+    background-color: #001933;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+.card{
+
+    background-color: #006666;
+    color: white;
+    box-shadow: 2px 4px 4px gray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 390px;
+}
+.cardTitle{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.cardDesc{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.cardFooter{
+    text-align: center;
+    font-weight: bold;
+}
