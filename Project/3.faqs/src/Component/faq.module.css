@@ -1,0 +1,16 @@
+.block{
+    background-color: teal;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+.block div{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    height: 25px;
+    display: flex;
+    align-items: center;
+
+}

@@ -4,7 +4,7 @@ import C from './C';
 const B = ({handleIncrement,handleDecrement}) => {
     
 
-    const calNumber = useMemo(()=>{
+    const allNumber = useMemo(()=>{
         let number = 0;
         for (let i = 0; i <2000000000; i++){
             number++;  
@@ -15,7 +15,7 @@ const B = ({handleIncrement,handleDecrement}) => {
     return (
         <div>
             <h1>Component B</h1>
-            <p>Number:{calNumber}</p>
+            <p>Number:{allNumber}</p>
             <button onClick={handleDecrement}>Decrement</button>
             <C handleIncrement={handleIncrement}/>
         </div>
