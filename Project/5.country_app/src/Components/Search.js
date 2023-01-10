@@ -5,7 +5,6 @@ const Search = ({onSearch}) => {
     
     const handleChange = (e) => {
         setSearchText(e.target.value);
-
     };
     useEffect(()=>{
         onSearch(searchText);

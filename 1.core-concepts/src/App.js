@@ -16,18 +16,18 @@ function App() {
   };
   let txt = "";
   for(let x in student){
-    if(student[x].length-2){
-      txt += student[x] + " ";
-    }
+      if(student[x].length-2){
+        txt += student[x] + " ";
+      }
   
   }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p> {"Student Info: "+student.fullName("Rakibul","Islam")} </p>
-        <p>{txt}</p>     
-      </header>
+        <header className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+            <p> {"Student Info: "+student.fullName("Rakibul","Islam")} </p>
+            <p>{txt}</p>     
+        </header>
     </div>
   );
 }

@@ -19,25 +19,6 @@ function App() {
   );
 }
 
-// function Counter(){
-//   const [count, setCount] = useState(0);
-//   const handleIncrease = () => {
-//     const newCount = count + 1;
-//     setCount(newCount);
-//   }
-//   const handleDecrease = () => {
-//     setCount(count - 1);
-//   }
-//   return (
-//     <div style={{border:'2px solid red', width:'400px', margin:'5px'}}>
-//       <p>useState use</p>
-//       <p>Count: {count}</p>
-//       <button style={{margin:'10px'}} onClick={handleIncrease}>Increase</button>
-//       <button style={{margin:'10px'}} onClick={handleDecrease}>Decrease</button>
-//     </div>
-
-//   );
-// }
 
 function Users(){
   const [users, setUsers] = useState([]);

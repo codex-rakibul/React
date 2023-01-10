@@ -6,7 +6,7 @@ import swal from 'sweetalert';
 
 const Protected = ({isLoggedIn, children}) => {
     if(!isLoggedIn){
-        swal("You must be logged in first");
+        swal("You must be login first");
         return <Navigate to="/" replace/>;
     }
     return children;

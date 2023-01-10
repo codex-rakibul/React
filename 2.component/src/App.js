@@ -25,7 +25,7 @@ function Person() {
 function Pra(){
   return (
     <div>
-      <p>Hey, I'm a Pra2</p>
+      <p>Hey, I'm a Pra</p>
     </div>
   );
 }
